@@ -37,3 +37,8 @@ App({
     userInfo: null
   }
 })
+// 监控剩余日程个数
+wx.setTabBarBadge({
+  index: 0,
+  text: '2'
+})

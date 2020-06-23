@@ -1,4 +1,4 @@
-// pages/read/read.js
+// pages/time/timePlus/timePlus.js
 Page({
 
   /**

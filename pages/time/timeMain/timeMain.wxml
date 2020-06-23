@@ -1,0 +1,39 @@
+<!--pages/time/time.wxml-->
+<view class="head">
+
+</view>
+
+<view class="box">
+    <view class="study" bindtap="contChange">
+      <icon class="iconfont icon-xuexi"></icon>
+      <text>学习</text>
+    </view>
+
+      <view class="write">
+      <icon class="iconfont icon-xiezuo"></icon>
+      <text>写作</text>
+    </view>
+
+      <view class="sport">
+      <icon class="iconfont icon-jianshen"></icon>
+      <text>运动</text>
+    </view>
+ 
+      <view class="read">
+      <icon class="iconfont icon-yuedu1"></icon>
+      <text>读书</text>
+    </view>
+
+    <text class="cont" style="color:{{contStyle.color}}">
+      {{contStyle.title}}
+    </text>
+</view>
+<view class="bot clearfix">
+  <icon class="plus iconfont icon-jia"></icon>
+    <view class="startGetTime">
+          <text>开始计时</text>
+    </view>
+    <icon class="plus iconfont icon-jian"></icon>
+  </view>
+<view>
+</view>

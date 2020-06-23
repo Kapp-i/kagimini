@@ -1,0 +1,136 @@
+/* pages/time/time.wxss */
+.box{
+  height: 502rpx;
+  width: 502rpx;
+  display: block;
+  box-sizing: border-box;
+  font-size: 0rpx;
+  margin: 0 auto;
+  margin-top: 150rpx;
+  position: relative;
+}
+.box view{
+  display: inline-block;
+  height: 250rpx;
+  width: 250rpx;
+  text-align: center;
+  line-height: 250rpx;
+  box-sizing: border-box;
+  float: left;
+}
+.box view icon{
+  display: block;
+  box-sizing: border-box;
+  margin: none;
+  padding: none;
+  font-size: 59rpx;
+  height:175rpx;
+  width: 100%;
+  line-height: 200rpx;
+}
+.box view text{
+  display: block;
+   box-sizing: border-box;
+  margin: none;
+  padding: none;
+  font-size: 28rpx;
+  height: 75rpx;
+  line-height: 45rpx;
+  width: 100%;
+}
+.box view:nth-of-type(1) icon,.box view:nth-of-type(1) text{
+  color: #B777FF;
+}
+.box view:nth-of-type(2) icon,.box view:nth-of-type(2) text{
+  color: #FF9620;
+}
+.box view:nth-of-type(3) icon,.box view:nth-of-type(3) text{
+  color: #FF7373;
+}
+.box view:nth-of-type(4) icon,.box view:nth-of-type(4) text{
+  color: #3C9EF2;
+}
+.study{
+   border-bottom: 2rpx double HotPink;
+   border-right: 2rpx double HotPink;
+   /* background: -webkit-linear-gradient(left,#9252FF,#B777FF); */
+   border-top-left-radius: 20rpx;
+}
+.write{
+    border-bottom: 1rpx double HotPink;
+    /* background: -webkit-linear-gradient(left,#FFC32A,#FF9620); */
+     border-top-right-radius: 20rpx;
+}
+.sport{
+  border-right: 1rpx double HotPink;
+  /* background: -webkit-linear-gradient(left,#FF3D3D,#FF7373); */
+   border-bottom-left-radius: 20rpx;
+}
+.read{
+  /* background: -webkit-linear-gradient(left,#73F2FF , #3C9EF2); */
+     border-bottom-right-radius: 20rpx;
+}
+.cont{
+  display: inline-block;
+  border: 1px dashed #004499;
+  height: 105rpx;
+  width: 105rpx;
+  border-radius: 50%;
+  position: absolute;
+  left: 195rpx;
+  top: 197.5rpx;
+  font-size:28rpx;
+  line-height: 40rpx;
+  text-align: center;
+  z-index: 100;
+  background: #fff;
+}
+.bot{
+ font-size: 0rpx;
+  height: 120rpx;
+  position: relative;
+  margin-top: 50rpx;
+}
+.bot icon{
+  display: inline-block;
+  position: absolute;
+}
+.bot .icon-jia{
+top: 25rpx;
+left: 150rpx;
+vertical-align: top;
+font-size: 40rpx;
+color: #d43e83;
+}
+.bot .icon-jian{
+  top: 25rpx;
+  float: right;
+  right: 150rpx;
+  vertical-align: top;
+font-size: 44rpx;
+color: #04BE02;
+}
+.bot .startGetTime{
+  position: absolute;
+  left: 262rpx;
+  top: 25rpx;
+  display:inline-block;
+  clear:both;
+  height: 75rpx;
+  width: 225rpx;
+  margin: 0 auto;
+  border: 1rpx solid #004499;
+  color: #004499;
+  font-size: 28rpx;
+  text-align: center;
+  line-height:75rpx;
+  border-radius: 35rpx;
+  vertical-align:top;
+}
+/*给父元素添加类clearfix*/
+.clearfix:after{ 
+    content: ".";              /* 这里尽量写点内容，否则在IE6-7会出现间隙 */
+    height: 0;                 /* 高度为0 */
+    clear: both;               /* 清除浮动 */
+    visibility: hidden;        /* 隐藏盒子 */
+}

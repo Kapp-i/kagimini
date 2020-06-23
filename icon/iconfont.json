@@ -1,10 +1,73 @@
 {
-  "id": "",
-  "name": "",
+  "id": "1900549",
+  "name": "kagmini",
   "font_family": "iconfont",
   "css_prefix_text": "icon-",
   "description": "",
   "glyphs": [
+    {
+      "icon_id": "1183175",
+      "name": "向右",
+      "font_class": "xiangyou",
+      "unicode": "e683",
+      "unicode_decimal": 59011
+    },
+    {
+      "icon_id": "1183176",
+      "name": "向下",
+      "font_class": "xiangshang",
+      "unicode": "e684",
+      "unicode_decimal": 59012
+    },
+    {
+      "icon_id": "1330739",
+      "name": "加",
+      "font_class": "jia",
+      "unicode": "e74a",
+      "unicode_decimal": 59210
+    },
+    {
+      "icon_id": "6241501",
+      "name": "减",
+      "font_class": "jian",
+      "unicode": "e627",
+      "unicode_decimal": 58919
+    },
+    {
+      "icon_id": "6186160",
+      "name": "向下",
+      "font_class": "xiangxia",
+      "unicode": "e60b",
+      "unicode_decimal": 58891
+    },
+    {
+      "icon_id": "14356811",
+      "name": "写作",
+      "font_class": "xiezuo",
+      "unicode": "e671",
+      "unicode_decimal": 58993
+    },
+    {
+      "icon_id": "1816592",
+      "name": "健身",
+      "font_class": "jianshen",
+      "unicode": "e64c",
+      "unicode_decimal": 58956
+    },
+    {
+      "icon_id": "2245437",
+      "name": "阅读 (1)",
+      "font_class": "yuedu1",
+      "unicode": "e68d",
+      "unicode_decimal": 59021
+    },
+    {
+      "icon_id": "10940406",
+      "name": "学习",
+      "font_class": "xuexi",
+      "unicode": "e615",
+      "unicode_decimal": 58901
+    },
     {
       "icon_id": "4662779",
       "name": "我的",

@@ -1,2 +1,7 @@
-<!--pages/login/login.wxml-->
-<text>pages/login/login.wxml</text>
+<!--index.wxml-->
+<text class="everyone">
+  每个人都拥有一个
+</text>
+<text class="word">
+  只属于自己的世界
+</text>

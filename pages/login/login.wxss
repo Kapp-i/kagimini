@@ -1,1 +1,11 @@
-/* pages/login/login.wxss */
+/**index.wxss**/
+
+.everyone{
+  display: inline-block;
+  padding: none;
+  margin: none;
+  height: 38rpx;
+  line-height: 38rpx;
+  text-align: center;
+ border: 1px solid red;
+}
