@@ -6,6 +6,41 @@
   "description": "",
   "glyphs": [
     {
+      "icon_id": "5371667",
+      "name": "更多",
+      "font_class": "gengduo",
+      "unicode": "e6b2",
+      "unicode_decimal": 59058
+    },
+    {
+      "icon_id": "29923",
+      "name": "appreciate",
+      "font_class": "appreciate",
+      "unicode": "e644",
+      "unicode_decimal": 58948
+    },
+    {
+      "icon_id": "29931",
+      "name": "favor",
+      "font_class": "favor",
+      "unicode": "e64d",
+      "unicode_decimal": 58957
+    },
+    {
+      "icon_id": "30416",
+      "name": "comment",
+      "font_class": "comment",
+      "unicode": "e667",
+      "unicode_decimal": 58983
+    },
+    {
+      "icon_id": "14393588",
+      "name": "我的-可爱-线",
+      "font_class": "wode-keai-xian",
+      "unicode": "e62d",
+      "unicode_decimal": 58925
+    },
+    {
       "icon_id": "1183175",
       "name": "向右",
       "font_class": "xiangyou",

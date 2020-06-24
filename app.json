@@ -1,9 +1,9 @@
 {
   "pages":[
-    "pages/time/timeMain/timeMain",
-    "pages/time/timePlus/timePlus",
     "pages/mine/mineMain/mineMain",
     "pages/read/readMain/readMain",
+    "pages/time/timeMain/timeMain",
+    "pages/time/timePlus/timePlus",
     "pages/login/login"
   ],
   "window":{

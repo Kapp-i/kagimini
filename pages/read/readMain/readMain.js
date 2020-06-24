@@ -5,9 +5,40 @@ Page({
    * 页面的初始数据
    */
   data: {
-
+      animationData:{},
+      footer:{
+        hidden:false
+      },
+    footerInfo: {
+       hidden: true
+    }
   },
+//  显示或隐藏详情
+  footerShowOrHide:function(e){
+    var animation = wx.createAnimation({
+      duration: 1000,
+      timingFunction: 'linear',
+    })
 
+    this.animation = animation
+
+    animation.opacity(0).step()
+
+    this.setData({
+      animationData: animation.export()
+    })
+
+    setTimeout(function () {
+      this.setData({
+        footer:{
+          hidden: false
+          },
+        footerInfo:{
+          hidden:true
+        }
+      })
+    }.bind(this), 100)
+  },
   /**
    * 生命周期函数--监听页面加载
    */
