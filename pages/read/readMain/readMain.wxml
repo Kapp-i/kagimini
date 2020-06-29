@@ -7,7 +7,11 @@
           <text class="info-name">一只特立独行的猪</text>
           <text class="info-book-name">《当我们谈论爱情，我们在谈论什么？》</text>
        </view>
-         <view class="left-more">
+      <view 
+      class="left-more"
+      hover-class="indexClick"
+      hover-stay-time="250"
+      >
          <icon class="more iconfont icon-wode-keai-xian" ></icon>
        </view>
     </view>

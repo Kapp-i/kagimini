@@ -110,3 +110,6 @@ page{
   text-align: center;
   vertical-align: middle;
 }
+.indexClick{
+  color: var(--themeColor);
+}

@@ -1,0 +1,34 @@
+<!--pages/mine/userInfo/userInfo.wxml-->
+<view class="user_info_list">
+    <navigator class="info_item user_head">
+        <view class="item_left">头像</view>
+        <view class="item_right">
+            <image src="../../../tabbar/head.jpeg" mode="widthFix"></image>
+            <icon class="iconfont icon-xiangyou"></icon>
+        </view>
+    </navigator>
+    <navigator class="info_item user_name">
+        <view class="item_left">名字</view>
+        <view class="item_right">
+            <view class="name">
+                <text>
+                    与星说
+                </text>
+                <icon class="iconfont icon-xiangyou"></icon>
+            </view>
+        </view>
+    </navigator>
+    <navigator class="info_item user_authority">
+        <view class="item_left">权限</view>
+        <view class="item_right">
+            <icon class="iconfont icon-xiangyou"></icon>
+        </view>
+    </navigator>
+    <navigator class="info_item user_more">
+        <view class="item_left">更多</view>
+        <view class="item_right">
+            <icon class="iconfont icon-xiangyou"></icon>
+        </view>
+    </navigator>
+
+</view>

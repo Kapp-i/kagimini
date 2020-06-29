@@ -2,6 +2,7 @@
 page{
   position: fixed;
   width: 100%;
+  height: 100%;
 }
 .box{
   height: 502rpx;
@@ -13,7 +14,7 @@ page{
   margin-top: 150rpx;
   position: relative;
 }
-.box view{
+.content_tesxt view{
   display: inline-block;
   height: 250rpx;
   width: 250rpx;
@@ -22,7 +23,7 @@ page{
   box-sizing: border-box;
   float: left;
 }
-.box view icon{
+.content_tesxt view icon{
   display: block;
   box-sizing: border-box;
   margin: none;
@@ -32,7 +33,7 @@ page{
   width: 100%;
   line-height: 200rpx;
 }
-.box view text{
+.content_tesxt view text{
   display: block;
    box-sizing: border-box;
   margin: none;
@@ -41,18 +42,6 @@ page{
   height: 75rpx;
   line-height: 45rpx;
   width: 100%;
-}
-.box view:nth-of-type(1) icon,.box view:nth-of-type(1) text{
-  color: #B777FF;
-}
-.box view:nth-of-type(2) icon,.box view:nth-of-type(2) text{
-  color: #FF9620;
-}
-.box view:nth-of-type(3) icon,.box view:nth-of-type(3) text{
-  color: #FF7373;
-}
-.box view:nth-of-type(4) icon,.box view:nth-of-type(4) text{
-  color: #3C9EF2;
 }
 .study{
    border-bottom: 2rpx double HotPink;
@@ -76,7 +65,6 @@ page{
 }
 .cont{
   display: inline-block;
-  border: 1px dashed #004499;
   height: 105rpx;
   width: 105rpx;
   border-radius: 50%;
@@ -84,10 +72,10 @@ page{
   left: 195rpx;
   top: 197.5rpx;
   font-size:28rpx;
-  line-height: 40rpx;
-  text-align: center;
   z-index: 100;
   background: #fff;
+  display: flex;
+  justify-content: center;
 }
 .bot{
  font-size: 0rpx;
@@ -130,4 +118,7 @@ color: #04BE02;
   line-height:75rpx;
   border-radius: 35rpx;
   vertical-align:top;
+}
+.indexClick{
+  color: #fff !important;
 }

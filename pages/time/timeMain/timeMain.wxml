@@ -4,36 +4,38 @@
 </view>
 
 <view class="box">
-    <view class="study" bindtap="contChange">
-      <icon class="iconfont icon-xuexi"></icon>
-      <text>学习</text>
-    </view>
-
-      <view class="write">
-      <icon class="iconfont icon-xiezuo"></icon>
-      <text>写作</text>
-    </view>
-
-      <view class="sport">
-      <icon class="iconfont icon-jianshen"></icon>
-      <text>运动</text>
-    </view>
- 
-      <view class="read">
-      <icon class="iconfont icon-yuedu1"></icon>
-      <text>读书</text>
-    </view>
-
-    <text class="cont" style="color:{{contStyle.color}}">
-      {{contStyle.title}}
-    </text>
+  <view class="content_tesxt">
+      <view class="{{item.styleClass}}" 
+        wx:for="{{contStyle}}" 
+        wx:key="id"
+        style="color:{{item.color}}"
+        data-index="{{index}}"
+        hover-class="indexClick"
+        hover-stay-time="250"
+        bindtap="contChange">
+        <icon class="iconfont {{item.icon}}"></icon>
+        <text>{{item.title}}</text>
+      </view>
+  </view>
+  <text class="cont" style="color:{{chooseData.color}};border:1px dashed {{chooseData.color}};">
+    {{chooseData.title}}
+  </text>
 </view>
 <view class="bot clearfix">
-  <icon class="plus iconfont icon-jia"></icon>
-    <view class="startGetTime">
+    <navigator url="/pages/time/timePlus/timePlus">
+      <icon class="plus iconfont icon-jia"></icon>
+      </navigator>
+    <navigator 
+    hover-class="indexClick"
+    hover-stay-time="250"
+    url="/pages/time/timeGoing/timeGoing?typeId={{chooseData.id}}"
+    class="startGetTime" 
+    style="color:{{chooseData.color}};border:1px solid {{chooseData.color}};">
           <text>开始计时</text>
-    </view>
-    <icon class="plus iconfont icon-jian"></icon>
+    </navigator>
+    <navigator url="/pages/time/timeCut/timeCut">
+      <icon class="plus iconfont icon-jian"></icon>
+      </navigator>
   </view>
 <view>
 </view>
