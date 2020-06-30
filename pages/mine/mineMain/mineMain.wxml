@@ -1,22 +1,24 @@
 <!--pages/mine/mineMain/mineMain.wxml-->
-<image  class="back" src="../../../tabbar/background.jpeg"></image>
-
-<view class="head">
-	<view class="news" hidden="true">
-		<icon class="iconfont icon-jia"></icon>
-  </view>
-  <navigator url="/pages/mine/userInfo/userInfo?userId={{userInfo.userId}}">
-      <image class="head-img" src="../../../tabbar/head.jpeg"></image>
-  </navigator>
-  <view class="head-info">
-    <navigator url="/pages/mine/userInfo/userInfo?userId={{userInfo.userId}}" class="user-name">一只特立独行的猪</navigator>
-    <view class="fans">
-      <text>关注 0</text>
-      <text>粉丝 0</text>
+<rich-text  nodes="{{stars.htmlStart+stars.html+stars.htmlEnd}}">	</rich-text>
+<view class="mine_content"  bindtouchstart="handletouchstart" bindtouchmove="handletouchmove" >
+  <image  class="back" src="../../../tabbar/background.jpeg"></image>
+  <view class="head">
+    <view class="news" hidden="true">
+      <icon class="iconfont icon-jia"></icon>
     </view>
+    <navigator url="/pages/mine/userInfo/userInfo?userId={{userInfo.userId}}">
+        <image class="head-img" src="../../../tabbar/head.jpeg"></image>
+    </navigator>
+    <view class="head-info">
+      <navigator url="/pages/mine/userInfo/userInfo?userId={{userInfo.userId}}" class="user-name">一只特立独行的猪</navigator>
+      <view class="fans">
+        <text>关注 0</text>
+        <text>粉丝 0</text>
+      </view>
+    </view>
+    <navigator url="/pages/mine/userInfo/userInfo?userId={{userInfo.userId}}" class="head-jump">
+      <text>个人主页</text>
+      <icon class="iconfont icon-xiangyou"></icon>
+    </navigator>
   </view>
-  <navigator url="/pages/mine/userInfo/userInfo?userId={{userInfo.userId}}" class="head-jump">
-    <text>个人主页</text>
-    <icon class="iconfont icon-xiangyou"></icon>
-  </navigator>
 </view>

@@ -1,4 +1,11 @@
 /* pages/mine/mineMain/mineMain.wxss */
+.mine_content{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+}
 .back{
 	height: 300rpx;
 	z-index: 1;
@@ -8,9 +15,9 @@
     height: 250rpx;
     font-size: 0rpx;
     padding: 16rpx 16rpx;
-		position: fixed;
-		top:35rpx;
-		left: 0;
+    position: absolute;
+    top:35rpx;
+    left: 0;
 }
 .news{
 	border: 1px solid red;
@@ -66,4 +73,13 @@
 .head-jump icon{
     margin-left: 6rpx;
     font-size: 24rpx;
+}
+.stars{
+	position: fixed;
+	top: 0;
+	left: 0;
+	border: 1px solid red;
+	box-sizing: border-box;
+	color: red;
+	font-size:40rpx; 
 }
