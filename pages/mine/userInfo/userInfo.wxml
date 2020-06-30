@@ -1,13 +1,13 @@
 <!--pages/mine/userInfo/userInfo.wxml-->
 <view class="user_info_list">
-    <navigator class="info_item user_head">
+    <navigator class="info_item user_head clearfix">
         <view class="item_left">头像</view>
         <view class="item_right">
-            <icon class="iconfont icon-xiangyou"></icon>
+            <icon style="line-height: 120rpx;" class="iconfont icon-xiangyou"></icon>
             <image src="../../../tabbar/head.jpeg" mode="widthFix"></image>
         </view>
     </navigator>
-    <navigator class="info_item user_name">
+    <navigator class="info_item user_name clearfix">
         <view class="item_left">名字</view>
         <view class="item_right">
             <view class="name">
@@ -18,13 +18,13 @@
             </view>
         </view>
     </navigator>
-    <navigator class="info_item user_authority">
+    <navigator class="info_item user_authority clearfix" bind:tap="handleAuthority">
         <view class="item_left">权限</view>
         <view class="item_right">
             <icon class="iconfont icon-xiangyou"></icon>
         </view>
-    </navigator>
-    <navigator class="info_item user_more">
+    </navigator> 
+    <navigator class="info_item user_more clearfix">
         <view class="item_left">更多</view>
         <view class="item_right">
             <icon class="iconfont icon-xiangyou"></icon>

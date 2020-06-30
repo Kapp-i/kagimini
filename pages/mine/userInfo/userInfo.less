@@ -8,47 +8,66 @@ page{
     height: 100%;
     background-color: #dedede;
     .info_item{
-        height: 90rpx;
+        height: 100rpx;
         width: 100%;
         display: flex;
         justify-content: center;
         align-items: center;
         background-color: #fff;
-        border-bottom:1px solid #dedede;
-        &:nth-child(1){
-            height: 120rpx;
-        }
+        padding-left: 40rpx;
         .item_left{
             flex: 1;
             display: flex;
             flex-direction: column;
             justify-content: center;
             padding-left: 20rpx;
+            border-bottom:1rpx solid #dedede;
+            height: 100%;
+            font-size:28rpx;
         }
         .item_right{
             flex: 1;
-            padding-right: 20rpx;
-            padding-right: 20rpx;
+            padding-right: 30rpx;
+            font-size: 0rpx;
+            border-bottom:1rpx solid #dedede;
+            height: 100%;
             image{
                 width: 90rpx;
                 height: 90rpx;
                 border-radius: 45rpx;
                 float: right;
+                margin-top: 15rpx;
             }
             .iconfont{
                 font-size: 24rpx;
                 margin-left: 20rpx;
                 display: inline-block;
                 float: right;
-                line-height: 90rpx;
+                line-height: 100rpx;
+                color: #666;
             }
             text{
                 display: inline-block;
                 font-size: 24rpx;
                 vertical-align: middle;
                 float: right;
-                line-height: 90rpx;
+                height: 100rpx;
+                line-height: 100rpx;
+                color: #666;
             }
+        }
+        &:nth-child(1){
+            height: 120rpx;
+            line-height: 120rpx;
+        }
+        &:nth-child(2) text{
+            line-height: normal;
+        }
+        &:nth-last-child(1) .item_right{
+            border-bottom: none;
+        }
+        &:nth-last-child(1) .item_left{
+            border-bottom: none;
         }
     }
 }
