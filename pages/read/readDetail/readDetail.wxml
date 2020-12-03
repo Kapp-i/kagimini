@@ -1,0 +1,42 @@
+<!-- 头部导航栏 -->
+<view class="readDetail">
+    <view class="copy">
+        <view class="title clearfix">
+        <image class="user-header" src="../../../tabbar/head.jpeg"></image>
+        <view class="info">
+            <text class="info-name">一只特立独行的猪</text>
+            <text class="info-book-name">《当我们谈论爱情，我们在谈论什么？》</text>
+        </view>
+        <view 
+        class="left-more"
+        hover-class="indexClick"
+        hover-stay-time="250"
+        >
+        </view>
+        </view>
+        <view class="content">
+        <text class="con">就好比说没有离不开的人，忘不了的过去，无论是惊艳了你青葱岁月，还是温柔了你拼搏时光。最终都会有一个合适的人陪你一起看日出，等日落，过平淡而温馨的日子。对于说爱情里受伤了后，就一副苦大仇深模样，其实也只是一个过渡，遇到下一个人 还是会享受爱情 过去偶尔回想起只是一段经历，一件旧物 亦或许也都不会记起。
+        </text>
+        </view>
+
+        <view class="footer" animation="{{animationData}}" hidden="{{footer.hidden}}">
+            <view>
+                <icon class="like iconfont icon-appreciate"> </icon>
+            </view>
+            <view>
+                <icon class="collect iconfont icon-favor"></icon>
+            </view>
+        <view>
+                <icon class="comment iconfont icon-gengduo"></icon>
+        </view>
+        </view>
+    </view>
+</view>
+<view class="commentList">
+    <text class="comHead">
+        评论：
+    </text>
+    <view class="commentItem">
+
+    </view>
+</view>

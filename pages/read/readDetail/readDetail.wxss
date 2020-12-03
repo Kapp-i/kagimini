@@ -1,0 +1,111 @@
+/* pages/read/readMain/readMain.wxss */
+page{
+    background:#eee;
+    padding: 0 8rpx;
+  }
+  .copy,.commentList{
+    width: 100%;
+    margin-bottom: 10px;
+    background: #fff;
+    padding-top: 16rpx;
+    border-top-left-radius: 8rpx;
+    border-top-right-radius: 8rpx;
+    border-bottom-left-radius: 12rpx;
+    border-bottom-right-radius: 12rpx;
+  }
+  .title{
+    height:120rpx;
+    font-size: 0rpx;
+    padding: none;
+    margin: none;
+  }
+  .title .user-header{
+    height: 100rpx;
+    width: 100rpx;
+    border-radius:15rpx;
+    margin-top: 10rpx;
+    margin-left: 16rpx;
+    margin-right: 16rpx;
+  }
+  .title .info{
+    display: inline-block;
+    height: 100%;
+    vertical-align:top;
+  }
+  .title .info .info-name{
+    display: block;
+    height: 50%;
+    width: 500rpx;
+    line-height: 60rpx;
+    text-align: left;
+    padding: 0;
+    margin: 0;
+    font-size: 32rpx;
+     overflow: hidden;
+      white-space: nowrap;
+      text-overflow:ellipsis;
+    color: #621d34;
+  }
+  
+  .title .info .info-book-name{
+    display: inline-block;
+    text-align: left;
+    height: 50%;
+    width: 520rpx;
+    line-height: 60rpx;
+    padding: 0;
+    margin: 0;
+     font-size: 28rpx; 
+     overflow: hidden;
+      white-space: nowrap;
+      text-overflow:ellipsis;
+      color: #d43e83;
+  }
+  .title  .left-more{
+    display: inline-block;
+    vertical-align:top;
+    width: 88rpx;
+    line-height: 88rpx;
+    text-align: center;
+  }
+  .icon-wode-keai-xian{
+    font-size:46rpx; 
+  }
+  .content{
+    width: 100%;
+    padding: 16rpx 40rpx 0rpx 66rpx;
+    margin: none;
+  }
+  .content .con{
+    width: 100%;
+    margin: 0;
+    font-size: 32rpx;
+    color: #333;
+    display: block;
+    min-height: 45rpx;
+    text-indent:2em;
+    margin-bottom: 16rpx;
+    line-height: 45rpx;
+  }
+  .footer{
+    height: 85rpx;
+    font-size:0rpx; 
+    padding-left:65%; 
+    padding-right: 16rpx;
+  }
+  .footer view{
+    display: inline-block;
+    height: 100%;
+    width: 33%;
+    text-align: center;
+    font-size: 0rpx;
+  }
+  .footer view icon{
+    height: 100%;
+    font-size:42rpx; 
+    text-align: center;
+    vertical-align: middle;
+  }
+  .indexClick{
+    color: var(--themeColor);
+  }

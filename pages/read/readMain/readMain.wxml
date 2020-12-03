@@ -12,7 +12,9 @@
       hover-class="indexClick"
       hover-stay-time="250"
       >
-         <icon class="more iconfont icon-wode-keai-xian" ></icon>
+         <navigator url="/pages/read/readDetail/readDetail">
+            <icon class="more iconfont icon-wode-keai-xian" ></icon>
+         </navigator>
        </view>
     </view>
     <view class="content">
